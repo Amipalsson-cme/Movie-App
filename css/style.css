@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Righteous&family=Roboto+Condensed&display=swap');
+
+body { 
+      font: 400 1em/1.5 "Neuton";
+      background: #090d00;
+      color: rgba(255,255,255,.25); 
+      text-align: center; 
+      margin: 0 }
+
+
+
+.header {
+    font-family:"Lato", sans-serif!important;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display:inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position:relative;
+	left: 50%;
+	width: 40em;
+    margin: 0 0 0 -20em;
+    text-align: center;
+}
+
+span {
+    font: 700 4em/1 "Lato", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+      text-shadow: 0 0 80px rgba(255,255,255,.5);
+      background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+      -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+}
+
+
+.form-group {
+    margin-left:37%;
+}
+
+input {
+    
+    width:40%!important;
+    border-radius: 25px;
+    font-size:1em;
+    outline:none;
+    text-align: center;
+}
+
+ul {
+    margin-left:2%;
+    display:flex;
+    flex-wrap: wrap;
+  
+    
+}
+
+li  {
+    
+    list-style-type: none;
+    text-align:center;
+    font-size:1em;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+  
+}
+
+.movie-card{
+    background-color:transparent;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 5px 10px rgb(17, 17, 17);
+    cursor: pointer;
+    margin: 35px 20px;
+    position: relative;
+    transition: all 1s;
+}
+
+.movie-card:hover{
+    box-shadow: 0px 10px 20px orangered;
+    transform:  scale(1.08);
+    
+}
+
+
+img {
+    height:400px;
+    
+}
+
+button {
+    width:15%;
+    margin-left:13%!important;
+}
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
